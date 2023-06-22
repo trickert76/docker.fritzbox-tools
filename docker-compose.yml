@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  fbtools:
+    build: .
+#    image: "docker.io/acoby/fbtools:latest"
+    restart: "unless-stopped"
+    ports:
+      - 1290:80
+    volumes:
+#      - ./app/var/www:/var/www
+      - ./data/log:/var/log
