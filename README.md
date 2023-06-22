@@ -7,6 +7,6 @@ You can run it with
 
     docker compose build
     docker compose up -d
-    docker compose fbtools exec fb-tools -h
+    docker-compose exec fbtools fb_tools -h
 
 Havve fun!
