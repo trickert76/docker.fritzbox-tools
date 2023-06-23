@@ -1,2 +1,5 @@
 /.project
 /data
+/.env
+/app/var/www/fbtools/config
+/.buildpath

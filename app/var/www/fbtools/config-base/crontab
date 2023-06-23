@@ -1,0 +1,5 @@
+59 * * * * /usr/local/bin/fbtools-check.sh
+59 * * * * /usr/local/bin/nmap-check-complete.sh
+59 * * * * /usr/local/bin/php /var/www/fbtools/services/cron.php
+
+0 12 * * * /usr/local/bin/nmap-check-complete.sh

@@ -1,0 +1,21 @@
+# {{ ansible_managed }}
+
+TZ=Europe/Berlin
+
+FRITZ_BOX_URL="http://user:pass@192.168.178.1"
+LAN_NETWORK="192.168.178.0/24"
+
+
+DB_HOST=database
+DB_NAME=fritzbox
+DB_USER=fritzbox
+DB_PASS=fritzbox
+
+
+MYSQL_RANDOM_ROOT_PASSWORD=yes
+MYSQL_INITDB_SKIP_TZINFO=1
+MYSQL_DATABASE=fritzbox
+MYSQL_USER=fritzbox
+MYSQL_PASSWORD=fritzbox
+
+#eof
